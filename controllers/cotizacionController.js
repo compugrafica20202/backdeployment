@@ -72,4 +72,6 @@ exports.crearCotizacion = async (req, res) => {
     // Si se guardo exitosamente muestrelo en consola del servidor
     console.log(`Cotización recibida. CC/NIT: ${req.body.cc_o_nit}`);
   });
+  
+  res.send("Cotizacion exitosa")
 };

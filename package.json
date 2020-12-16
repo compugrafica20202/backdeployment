@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-all": "npm install && cd client && npm install",
-    "client": "cd client && npm start",
-    "client-build": "cd client && npm run build",
+    "install-all": "npm install",
     "server": "nodemon server/app.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "run": "node server/app.js"
   },
   "repository": {
     "type": "git",
